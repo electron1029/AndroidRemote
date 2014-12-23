@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_basic"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Basic"/>
+    <item
+        android:id="@+id/action_advanced"
+        android:showAsAction="always"
+        android:title="Advanced">
+    </item>
+    <item
+        android:id="@+id/action_vcr"
+        android:showAsAction="always"
+        android:title="VCR Control">
+    </item>
+</menu>

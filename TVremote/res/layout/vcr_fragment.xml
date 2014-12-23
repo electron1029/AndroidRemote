@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/string_play" />
+
+        <Button
+            android:id="@+id/play"
+            style="@style/buttonCustomPlay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/textViewStyle"
+                android:text="@string/string_rewind" />
+
+            <Button
+                android:id="@+id/rewind"
+                style="@style/buttonCustomRewindBack" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/textViewStyle"
+                android:text="@string/string_forward" />
+
+            <Button
+                android:id="@+id/forward"
+                style="@style/buttonCustomRewindForward" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/string_stop" />
+
+        <Button
+            android:id="@+id/stop"
+            style="@style/buttonCustomStop" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginTop="60dp"
+            android:layout_weight="0.61" >
+
+            <Button
+                android:id="@+id/button_eject"
+                style="@style/buttonCustom"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="false"
+                android:layout_marginBottom="45dp"
+                android:text="@string/string_eject" />
+
+            <Button
+                android:id="@+id/button_pause"
+                style="@style/buttonCustom"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/button_eject"
+                android:text="@string/string_pause" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

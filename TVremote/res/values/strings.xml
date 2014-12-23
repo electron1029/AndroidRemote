@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">TVremote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_starting">TV Remote</string>
+    
+    
+   	<string name="string_power">Power On/Off</string>
+	<string name="string_volume_up">Volume Up</string>
+	<string name="string_volume_down">Volume Down</string>
+	<string name="string_channel_up">Channel Up</string>
+	<string name="string_channel_down">Channel Down</string>
+	<string name="string_mute">Mute</string>
+	<string name="string_source">Source</string>
+	<string name="string_menu">Menu</string>
+	<string name="string_play">Play</string>
+	<string name="string_stop">Stop</string>
+	<string name="string_rewind">Rewind</string>
+	<string name="string_forward">Forward</string>
+	<string name="string_1">1</string>
+	<string name="string_2">2</string>
+	<string name="string_3">3</string>
+	<string name="string_4">4</string>
+	<string name="string_5">5</string>
+	<string name="string_6">6</string>
+	<string name="string_7">7</string>
+	<string name="string_8">8</string>
+	<string name="string_9">9</string>
+	<string name="string_0">0</string>
+	<string name="string_eject">Eject</string>
+	<string name="string_pause">Pause</string>
+	<string name="string_program">Program</string>
+	<string name="string_tracking_plus">Tracking +</string>
+	<string name="string_tracking_minus">Tracking -</string>
+	<string name="string_digital_tracking">Digital Tracking</string>
+
+</resources>

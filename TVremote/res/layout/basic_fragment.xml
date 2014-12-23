@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:gravity="fill_vertical"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+   	<Button
+   	    android:id="@+id/button_9"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_6"
+   	    android:layout_toRightOf="@+id/button_8"
+   	    android:text="@string/string_9" />
+
+   	<Button
+   	    android:id="@+id/channelUp"
+   	    style="@style/buttonCustom"
+   	    android:layout_alignParentLeft="false"
+   	    android:layout_below="@+id/button_0"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:layout_marginTop="5dp"
+   	    android:layout_toLeftOf="@id/button_0"
+   	    android:text="@string/string_channel_up" />
+
+   	<Button
+   	    android:id="@+id/volumeUp"
+   	    style="@style/buttonCustom"
+   	    android:layout_alignParentRight="false"
+   	    android:layout_below="@id/button_0"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:layout_toRightOf="@id/button_0"
+   	    android:text="@string/string_volume_up" />
+
+   	<Button
+   	    android:id="@+id/volumeDown"
+   	    style="@style/buttonCustom"
+   	    android:layout_below="@+id/volumeUp"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:layout_marginTop="5dp"
+   	    android:layout_toRightOf="@id/button_0"
+   	    android:text="@string/string_volume_down" />
+
+   	<Button
+   	    android:id="@+id/power"
+   	    style="@style/buttonCustomPower"
+   	    android:layout_alignParentTop="true"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_margin="5dp"
+   	    android:text="@string/string_power" />
+   	
+   	<Button
+   	    android:id="@+id/button_2"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/power"
+   	    android:layout_centerHorizontal="true"
+   	    android:text="@string/string_2" />
+   	
+   	<Button
+   	    android:id="@+id/button_5"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_2"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:layout_marginTop="5dp"
+   	    android:text="@string/string_5" />
+   	
+   	<Button
+   	    android:id="@+id/button_8"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_5"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:text="@string/string_8" />
+   	
+   	<Button
+   	    android:id="@+id/button_4"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_1"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:layout_toLeftOf="@+id/button_5"
+   	    android:text="@string/string_4" />
+
+   	<Button
+   	    android:id="@+id/button_7"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_4"
+   	    android:layout_toLeftOf="@+id/button_8"
+   	    android:text="@string/string_7" />
+   	
+   	<Button
+   	    android:id="@+id/button_0"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_8"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_margin="5dp"
+   	    android:layout_marginLeft="5dp"
+   	    android:layout_marginRight="5dp"
+   	    android:text="@string/string_0" />
+   	
+   	<Button
+   	    android:id="@+id/channelDown"
+   	    style="@style/buttonCustom"
+   	    android:layout_alignParentLeft="false"
+   	    android:layout_below="@id/channelUp"
+   	    android:layout_margin="5dp"
+   	    android:layout_toLeftOf="@id/button_0"
+   	    android:text="@string/string_channel_down" />
+   	
+    <Button
+   	    android:id="@+id/button_3"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_alignBaseline="@+id/button_2"
+   	    android:layout_below="@id/power"
+   	    android:layout_margin="5dp"
+   	    android:layout_toRightOf="@+id/button_2"
+   	    android:text="@string/string_3" />
+    
+   	<Button
+   	    android:id="@+id/button_6"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@+id/button_3"
+   	    android:layout_toRightOf="@+id/button_5"
+   	    android:text="@string/string_6" />
+
+   	<Button
+   	    android:id="@+id/button_1"
+   	    style="@style/buttonCustomNum"
+   	    android:layout_below="@id/power"
+   	    android:layout_margin="5dp"
+   	    android:layout_toLeftOf="@+id/button_2"
+   	    android:text="@string/string_1" />
+
+</RelativeLayout>
+</ScrollView>
